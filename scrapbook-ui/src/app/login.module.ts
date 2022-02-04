@@ -11,7 +11,7 @@ export const LoginProviders = {
       {
         id: GoogleLoginProvider.PROVIDER_ID,
         provider: new GoogleLoginProvider(
-          '6383607950-8vfdgb52qqgfrkin3sonc424qamc5mkc.apps.googleusercontent.com'
+          '134493171333-u42k36hpdfnjc96kjuav4fpm000sf4g0.apps.googleusercontent.com'
         )
       },
     ]
