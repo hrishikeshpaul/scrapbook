@@ -43,6 +43,6 @@ echo '\nDeploy UI\n'
 git checkout main-UI
 kubectl apply -f scrapbook-ui/scrapbook-ui.yaml
 
-echo '\nDeploy Ingress\n'
-git checkout main
-kubectl apply -f scrapbook-prod.yaml -n default
+# echo '\nDeploy Ingress\n'
+# git checkout main
+# kubectl apply -f scrapbook-prod.yaml -n default
