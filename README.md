@@ -26,6 +26,7 @@ Scrapbook is a micro-service architecture based application that enables users t
 - Terraform
 - Ansible
 - Jmeter
+- Google Kubernetes Engine
 
 ## 🏰 System Architecture
 
