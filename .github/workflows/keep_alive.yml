@@ -1,0 +1,12 @@
+
+name: Keep Okteto alive
+on:
+  schedule:
+    - cron: 0 0 * * *
+jobs:
+  keep_alive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: |
+          curl https://sb-ui-hrishikeshpaul.cloud.okteto.net/
