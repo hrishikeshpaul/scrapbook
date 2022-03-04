@@ -3,7 +3,7 @@
 
 Scrapbook is a micro-service architecture based application that enables users to upload and manage images. It empowers the users to securely share images by introducing various roles. The users also have access to an intuitive dashboard to view different metrics and monitor various activities. Scrapbook aims to introduce simplicity in photo management.
 
-### 💻 [Production Demo](http://34.69.102.109/)
+### 💻 [Production Demo](https://sb-ui-hrishikeshpaul.cloud.okteto.net/)
 
 ![banner](https://raw.githubusercontent.com/airavata-courses/scrapbook/assets/assets/updated-napkin-diagram.png)
 
@@ -48,11 +48,11 @@ $ chmod +x deploy.sh
 $ ./deploy.sh
 ```
 
-- The production version is currently deployed at http://scrapbook.rocks/
-- The staging version is currently deployed at http://staging.scrapbook.rocks/
-- Jenkins is currently deployed at http://149.165.171.239:8080/
-- Redis instance is deployed at http://149.165.157.223:6379/
-- MongoDB instance is deployed at http://149.165.172.158:27017/
+- The production version is currently deployed at https://sb-ui-hrishikeshpaul.cloud.okteto.net/
+- [deprecated] The staging version is currently deployed at http://staging.scrapbook.rocks/
+- [deprecated] Jenkins is currently deployed at http://149.165.171.239:8080/
+- [deprecated] Redis instance is deployed at http://149.165.157.223:6379/
+- [deprecated] MongoDB instance is deployed at http://149.165.172.158:27017/
 
 #### Trigger a Production build
 
